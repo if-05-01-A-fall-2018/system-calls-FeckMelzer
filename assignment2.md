@@ -6,11 +6,11 @@
 ### System Calls Understanding and System Calls Fail
     fork() - create a child process
 
-    creates a new process by duplicating the calling process.  The
+    Creates a new process by duplicating the calling process.  The
     new process is referred to as the child process.  The calling process
     is referred to as the parent process.
 
-    dupliziert den aufrufenden Prozess um damit einen neuen Prozess, einen sogenannten
+    Dupliziert den aufrufenden Prozess um damit einen neuen Prozess, einen sogenannten
     "child-process" zu erzeugen. Der aufrufende Prozess wird "parent-process" genannt.
     Beide Prozesse laufen in verschiedenen Speicherorten mit exakt dem selben Inhalt.
 
