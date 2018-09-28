@@ -151,3 +151,8 @@ ________________________________________________________________________________
     as the employee is getting the pharmacies for his client. The moment he is
     giving the medicine to the client, the "system-call" is finished and the
     situation "changes back into user-mode".
+    
+     A typical hardware interrupt (or trap) would be pressing strg+c in a running
+    terminal, or an mouseclick.
+    A software-interrupt is invoked by software, unlike a hardware-interrupt, and
+    is one of the ways to communicate with the kernel or to invoke system calls.
